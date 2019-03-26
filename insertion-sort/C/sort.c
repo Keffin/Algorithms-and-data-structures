@@ -30,6 +30,7 @@ void ins_sort(int arr [], int len) {
         // Set the previous to the current
         //1st it: arr[j-1] = 1
         arr[j-1] = tmp;
+        // pretty much swapping 
         // decrement j
         j--;
       }
